@@ -8,6 +8,8 @@ A fast semantic search system that finds relevant video timestamps based on user
 # 1. Setup
 cd backend
 python3 -m venv venv
+OR
+python11 -m venv venv (if some error occurs)
 source venv/bin/activate
 pip install -r requirements.txt
 
