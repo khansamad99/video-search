@@ -1,0 +1,80 @@
+{
+  "video_id": "video_002",
+  "title": "Python Programming Basics",
+  "duration": 360.0,
+  "chunks": [
+    {
+      "text": "Welcome to Python programming basics. Python is a high-level, interpreted programming language known for its simplicity and readability.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_002_chunk_000"
+    },
+    {
+      "text": "Let's start with variables and data types. Python supports integers, floats, strings, lists, tuples, dictionaries, and sets.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_002_chunk_001"
+    },
+    {
+      "text": "Variables in Python are dynamically typed. You don't need to declare the type explicitly. For example, x equals 5 creates an integer variable.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_002_chunk_002"
+    },
+    {
+      "text": "Lists are ordered, mutable collections. You can create a list using square brackets, like my_list equals bracket one comma two comma three bracket.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_002_chunk_003"
+    },
+    {
+      "text": "Control flow in Python includes if-else statements, for loops, and while loops. Indentation is crucial in Python as it defines code blocks.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_002_chunk_004"
+    },
+    {
+      "text": "Functions are defined using the def keyword. They help organize code and promote reusability. Parameters can have default values.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_002_chunk_005"
+    },
+    {
+      "text": "Python has extensive built-in functions and a vast standard library. You can also import external packages using pip.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_002_chunk_006"
+    },
+    {
+      "text": "Object-oriented programming in Python involves classes and objects. Classes are blueprints for creating objects with attributes and methods.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_002_chunk_007"
+    },
+    {
+      "text": "Exception handling uses try-except blocks to manage errors gracefully. This prevents your program from crashing unexpectedly.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_002_chunk_008"
+    },
+    {
+      "text": "File handling in Python is straightforward. You can read and write files using the open function with different modes.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_002_chunk_009"
+    },
+    {
+      "text": "List comprehensions provide a concise way to create lists. They're more Pythonic than traditional for loops for simple operations.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_002_chunk_010"
+    },
+    {
+      "text": "This concludes our Python basics overview. Practice these concepts to build a strong foundation in Python programming.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_002_chunk_011"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996254"
+}

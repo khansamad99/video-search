@@ -1,0 +1,86 @@
+{
+  "video_id": "video_006",
+  "title": "Mobile App Development with Flutter",
+  "duration": 390.0,
+  "chunks": [
+    {
+      "text": "Welcome to mobile app development with Flutter. Flutter is Google's UI toolkit for building natively compiled applications.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_006_chunk_000"
+    },
+    {
+      "text": "Flutter uses Dart programming language and provides a rich set of pre-designed widgets following Material Design and Cupertino styles.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_006_chunk_001"
+    },
+    {
+      "text": "The widget tree is Flutter's core concept. Everything is a widget, from structural elements to styling and layout components.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_006_chunk_002"
+    },
+    {
+      "text": "Stateless widgets are immutable and don't change over time. Stateful widgets can rebuild when their internal state changes.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_006_chunk_003"
+    },
+    {
+      "text": "Hot reload feature allows instant visualization of changes without losing application state, speeding up development significantly.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_006_chunk_004"
+    },
+    {
+      "text": "Layout in Flutter uses widgets like Container, Row, Column, Stack, and Flex to arrange UI elements on screen.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_006_chunk_005"
+    },
+    {
+      "text": "Navigation between screens uses Navigator and routes. You can push and pop routes to manage the navigation stack.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_006_chunk_006"
+    },
+    {
+      "text": "State management options include setState, Provider, Riverpod, BLoC pattern, and GetX, each with different complexity levels.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_006_chunk_007"
+    },
+    {
+      "text": "Flutter supports platform-specific code through platform channels, allowing integration with native iOS and Android features.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_006_chunk_008"
+    },
+    {
+      "text": "Animations in Flutter can be implicit or explicit. AnimationController and Tween classes create custom animations.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_006_chunk_009"
+    },
+    {
+      "text": "Testing includes unit tests, widget tests, and integration tests. Flutter provides a comprehensive testing framework.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_006_chunk_010"
+    },
+    {
+      "text": "Publishing apps requires building release versions and following platform-specific guidelines for App Store and Google Play.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_006_chunk_011"
+    },
+    {
+      "text": "Flutter's single codebase for multiple platforms makes it efficient for cross-platform development. Keep learning and building!",
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "chunk_id": "video_006_chunk_012"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996322"
+}

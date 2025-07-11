@@ -1,0 +1,92 @@
+{
+  "video_id": "video_003",
+  "title": "Web Development with React",
+  "duration": 420.0,
+  "chunks": [
+    {
+      "text": "Welcome to web development with React. React is a JavaScript library for building user interfaces, particularly single-page applications.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_003_chunk_000"
+    },
+    {
+      "text": "React uses a component-based architecture. Components are reusable pieces of UI that can have their own state and props.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_003_chunk_001"
+    },
+    {
+      "text": "JSX is a syntax extension that allows you to write HTML-like code in JavaScript. It makes React components more readable and intuitive.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_003_chunk_002"
+    },
+    {
+      "text": "State management is crucial in React. The useState hook allows functional components to have local state.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_003_chunk_003"
+    },
+    {
+      "text": "Props are used to pass data from parent to child components. They are read-only and help maintain unidirectional data flow.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_003_chunk_004"
+    },
+    {
+      "text": "The useEffect hook handles side effects in functional components, such as data fetching, subscriptions, or DOM manipulation.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_003_chunk_005"
+    },
+    {
+      "text": "React Router enables client-side routing in single-page applications. It allows navigation without full page reloads.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_003_chunk_006"
+    },
+    {
+      "text": "Component lifecycle methods in class components, or hooks in functional components, let you run code at specific times.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_003_chunk_007"
+    },
+    {
+      "text": "Context API provides a way to share data between components without prop drilling through every level.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_003_chunk_008"
+    },
+    {
+      "text": "Performance optimization techniques include React.memo, useMemo, and useCallback to prevent unnecessary re-renders.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_003_chunk_009"
+    },
+    {
+      "text": "Building forms in React requires controlled components where form data is handled by React state.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_003_chunk_010"
+    },
+    {
+      "text": "Testing React applications can be done with Jest and React Testing Library for unit and integration tests.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_003_chunk_011"
+    },
+    {
+      "text": "Deployment options include Vercel, Netlify, or traditional web servers. Build optimization is important for production.",
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "chunk_id": "video_003_chunk_012"
+    },
+    {
+      "text": "This introduction covered React fundamentals. Continue learning by building projects and exploring the React ecosystem.",
+      "start_time": 390.0,
+      "end_time": 420.0,
+      "chunk_id": "video_003_chunk_013"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996273"
+}

@@ -1,0 +1,80 @@
+{
+  "video_id": "video_008",
+  "title": "Cybersecurity Fundamentals",
+  "duration": 360.0,
+  "chunks": [
+    {
+      "text": "Welcome to cybersecurity fundamentals. In our connected world, protecting digital assets is more important than ever.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_008_chunk_000"
+    },
+    {
+      "text": "The CIA triad represents core security principles: Confidentiality, Integrity, and Availability of information.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_008_chunk_001"
+    },
+    {
+      "text": "Common threats include malware, phishing, ransomware, DDoS attacks, and social engineering. Understanding threats helps in defense.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_008_chunk_002"
+    },
+    {
+      "text": "Authentication verifies identity through something you know, have, or are. Multi-factor authentication adds security layers.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_008_chunk_003"
+    },
+    {
+      "text": "Encryption protects data confidentiality. Symmetric encryption uses one key, asymmetric uses public-private key pairs.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_008_chunk_004"
+    },
+    {
+      "text": "Network security involves firewalls, intrusion detection systems, and VPNs. Defense in depth uses multiple security layers.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_008_chunk_005"
+    },
+    {
+      "text": "Web application security addresses vulnerabilities like SQL injection, cross-site scripting, and session hijacking.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_008_chunk_006"
+    },
+    {
+      "text": "Security best practices include regular updates, strong passwords, least privilege principle, and security awareness training.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_008_chunk_007"
+    },
+    {
+      "text": "Incident response plans prepare organizations for security breaches. Steps include preparation, detection, containment, and recovery.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_008_chunk_008"
+    },
+    {
+      "text": "Compliance frameworks like GDPR, HIPAA, and PCI-DSS set security standards for different industries and data types.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_008_chunk_009"
+    },
+    {
+      "text": "Penetration testing and vulnerability assessments help identify weaknesses before attackers exploit them.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_008_chunk_010"
+    },
+    {
+      "text": "Cybersecurity is an evolving field requiring continuous learning. Stay updated with latest threats and defense strategies.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_008_chunk_011"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996352"
+}

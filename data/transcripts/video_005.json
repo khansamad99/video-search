@@ -1,0 +1,80 @@
+{
+  "video_id": "video_005",
+  "title": "Cloud Computing with AWS",
+  "duration": 360.0,
+  "chunks": [
+    {
+      "text": "Welcome to cloud computing with AWS. Amazon Web Services is the leading cloud platform offering over 200 services.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_005_chunk_000"
+    },
+    {
+      "text": "Cloud computing provides on-demand resources without managing physical infrastructure. It offers scalability, reliability, and cost-effectiveness.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_005_chunk_001"
+    },
+    {
+      "text": "EC2, Elastic Compute Cloud, provides virtual servers in the cloud. You can choose instance types based on your needs.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_005_chunk_002"
+    },
+    {
+      "text": "S3, Simple Storage Service, offers object storage with high durability. It's perfect for backups, static websites, and data archiving.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_005_chunk_003"
+    },
+    {
+      "text": "RDS, Relational Database Service, manages databases like MySQL, PostgreSQL, and Oracle without server management.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_005_chunk_004"
+    },
+    {
+      "text": "Lambda enables serverless computing, running code without provisioning servers. You pay only for compute time used.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_005_chunk_005"
+    },
+    {
+      "text": "VPC, Virtual Private Cloud, lets you create isolated networks in AWS. Security groups and NACLs control traffic.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_005_chunk_006"
+    },
+    {
+      "text": "CloudFormation provides infrastructure as code, allowing you to define resources in JSON or YAML templates.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_005_chunk_007"
+    },
+    {
+      "text": "IAM, Identity and Access Management, controls who can access AWS resources. Follow the principle of least privilege.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_005_chunk_008"
+    },
+    {
+      "text": "CloudWatch monitors AWS resources and applications. It provides metrics, logs, and alarms for operational health.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_005_chunk_009"
+    },
+    {
+      "text": "Cost optimization strategies include using reserved instances, spot instances, and right-sizing resources.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_005_chunk_010"
+    },
+    {
+      "text": "This overview covered key AWS services. Hands-on practice and AWS certification can deepen your cloud expertise.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_005_chunk_011"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996306"
+}

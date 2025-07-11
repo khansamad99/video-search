@@ -1,0 +1,86 @@
+{
+  "video_id": "video_009",
+  "title": "DevOps and CI/CD Pipelines",
+  "duration": 390.0,
+  "chunks": [
+    {
+      "text": "Welcome to DevOps and CI/CD pipelines. DevOps combines development and operations for faster, reliable software delivery.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_009_chunk_000"
+    },
+    {
+      "text": "DevOps culture emphasizes collaboration, automation, and continuous improvement. It breaks down silos between teams.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_009_chunk_001"
+    },
+    {
+      "text": "Version control with Git is fundamental. Branching strategies like GitFlow or GitHub Flow organize development work.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_009_chunk_002"
+    },
+    {
+      "text": "Continuous Integration automatically builds and tests code changes. It catches issues early in the development cycle.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_009_chunk_003"
+    },
+    {
+      "text": "Continuous Delivery automates release processes. Code changes can be deployed to production quickly and safely.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_009_chunk_004"
+    },
+    {
+      "text": "Docker containers package applications with dependencies. They ensure consistency across development and production environments.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_009_chunk_005"
+    },
+    {
+      "text": "Kubernetes orchestrates containers at scale. It handles deployment, scaling, and management of containerized applications.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_009_chunk_006"
+    },
+    {
+      "text": "Infrastructure as Code tools like Terraform and Ansible automate infrastructure provisioning and configuration.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_009_chunk_007"
+    },
+    {
+      "text": "Monitoring and logging are crucial for observability. Tools like Prometheus, Grafana, and ELK stack provide insights.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_009_chunk_008"
+    },
+    {
+      "text": "CI/CD tools include Jenkins, GitLab CI, GitHub Actions, and CircleCI. They automate build, test, and deploy processes.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_009_chunk_009"
+    },
+    {
+      "text": "Testing in CI/CD includes unit tests, integration tests, and automated UI tests. Quality gates ensure standards are met.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_009_chunk_010"
+    },
+    {
+      "text": "Security should be integrated into DevOps as DevSecOps. Automated security scans catch vulnerabilities early.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_009_chunk_011"
+    },
+    {
+      "text": "DevOps transformation requires cultural change and technical skills. Start small and iterate to build momentum.",
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "chunk_id": "video_009_chunk_012"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996368"
+}

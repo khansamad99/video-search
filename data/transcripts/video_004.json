@@ -1,0 +1,104 @@
+{
+  "video_id": "video_004",
+  "title": "Data Structures and Algorithms",
+  "duration": 480.0,
+  "chunks": [
+    {
+      "text": "Welcome to data structures and algorithms. These are fundamental concepts in computer science that help solve problems efficiently.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_004_chunk_000"
+    },
+    {
+      "text": "Arrays are the simplest data structure, storing elements in contiguous memory. They provide constant-time access by index.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_004_chunk_001"
+    },
+    {
+      "text": "Linked lists store elements in nodes, each pointing to the next. They're dynamic but have linear access time.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_004_chunk_002"
+    },
+    {
+      "text": "Stacks follow Last-In-First-Out principle. Common operations are push and pop. They're used in function calls and undo operations.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_004_chunk_003"
+    },
+    {
+      "text": "Queues follow First-In-First-Out principle. Enqueue adds elements, dequeue removes them. Used in task scheduling and BFS.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_004_chunk_004"
+    },
+    {
+      "text": "Hash tables provide near constant-time lookups using key-value pairs. They handle collisions through chaining or open addressing.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_004_chunk_005"
+    },
+    {
+      "text": "Trees are hierarchical structures with nodes and edges. Binary trees have at most two children per node.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_004_chunk_006"
+    },
+    {
+      "text": "Binary search trees maintain sorted order, enabling efficient searching, insertion, and deletion operations.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_004_chunk_007"
+    },
+    {
+      "text": "Heaps are complete binary trees with heap property. Min-heaps and max-heaps are used in priority queues.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_004_chunk_008"
+    },
+    {
+      "text": "Graphs represent relationships between entities. They can be directed or undirected, weighted or unweighted.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_004_chunk_009"
+    },
+    {
+      "text": "Sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_004_chunk_010"
+    },
+    {
+      "text": "Searching algorithms include linear search and binary search. Binary search requires sorted data but is much faster.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_004_chunk_011"
+    },
+    {
+      "text": "Dynamic programming solves complex problems by breaking them into simpler subproblems and storing results.",
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "chunk_id": "video_004_chunk_012"
+    },
+    {
+      "text": "Time complexity measures algorithm efficiency. Big O notation describes worst-case scenarios.",
+      "start_time": 390.0,
+      "end_time": 420.0,
+      "chunk_id": "video_004_chunk_013"
+    },
+    {
+      "text": "Space complexity measures memory usage. Trade-offs between time and space are common in algorithm design.",
+      "start_time": 420.0,
+      "end_time": 450.0,
+      "chunk_id": "video_004_chunk_014"
+    },
+    {
+      "text": "Practice implementing these structures and algorithms to improve problem-solving skills and prepare for technical interviews.",
+      "start_time": 450.0,
+      "end_time": 480.0,
+      "chunk_id": "video_004_chunk_015"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996290"
+}

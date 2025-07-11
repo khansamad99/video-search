@@ -1,0 +1,65 @@
+{
+  "total_videos": 10,
+  "videos": [
+    {
+      "video_id": "video_001",
+      "title": "Introduction to Machine Learning",
+      "duration": 300.0,
+      "chunks": 10
+    },
+    {
+      "video_id": "video_002",
+      "title": "Python Programming Basics",
+      "duration": 360.0,
+      "chunks": 12
+    },
+    {
+      "video_id": "video_003",
+      "title": "Web Development with React",
+      "duration": 420.0,
+      "chunks": 14
+    },
+    {
+      "video_id": "video_004",
+      "title": "Data Structures and Algorithms",
+      "duration": 480.0,
+      "chunks": 16
+    },
+    {
+      "video_id": "video_005",
+      "title": "Cloud Computing with AWS",
+      "duration": 360.0,
+      "chunks": 12
+    },
+    {
+      "video_id": "video_006",
+      "title": "Mobile App Development with Flutter",
+      "duration": 390.0,
+      "chunks": 13
+    },
+    {
+      "video_id": "video_007",
+      "title": "Database Design and SQL",
+      "duration": 420.0,
+      "chunks": 14
+    },
+    {
+      "video_id": "video_008",
+      "title": "Cybersecurity Fundamentals",
+      "duration": 360.0,
+      "chunks": 12
+    },
+    {
+      "video_id": "video_009",
+      "title": "DevOps and CI/CD Pipelines",
+      "duration": 390.0,
+      "chunks": 13
+    },
+    {
+      "video_id": "video_010",
+      "title": "Artificial Intelligence and Neural Networks",
+      "duration": 450.0,
+      "chunks": 15
+    }
+  ]
+}

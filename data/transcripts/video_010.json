@@ -1,0 +1,98 @@
+{
+  "video_id": "video_010",
+  "title": "Artificial Intelligence and Neural Networks",
+  "duration": 450.0,
+  "chunks": [
+    {
+      "text": "Welcome to artificial intelligence and neural networks. AI aims to create systems that can perform tasks requiring human intelligence.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_010_chunk_000"
+    },
+    {
+      "text": "Neural networks are inspired by biological neurons. They consist of layers of interconnected nodes that process information.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_010_chunk_001"
+    },
+    {
+      "text": "Deep learning uses neural networks with multiple hidden layers. It has revolutionized computer vision, NLP, and speech recognition.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_010_chunk_002"
+    },
+    {
+      "text": "The perceptron is the simplest neural network unit. It takes inputs, applies weights, adds bias, and produces output through activation.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_010_chunk_003"
+    },
+    {
+      "text": "Backpropagation trains neural networks by calculating gradients and updating weights to minimize error.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_010_chunk_004"
+    },
+    {
+      "text": "Convolutional Neural Networks excel at image processing. They use filters to detect features like edges and patterns.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_010_chunk_005"
+    },
+    {
+      "text": "Recurrent Neural Networks process sequential data. LSTMs and GRUs solve vanishing gradient problems in RNNs.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_010_chunk_006"
+    },
+    {
+      "text": "Transfer learning leverages pre-trained models for new tasks. It reduces training time and data requirements significantly.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_010_chunk_007"
+    },
+    {
+      "text": "Natural Language Processing enables machines to understand human language. Transformers like BERT and GPT have advanced NLP.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_010_chunk_008"
+    },
+    {
+      "text": "Computer vision applications include object detection, facial recognition, and autonomous vehicles. CNNs are the backbone.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_010_chunk_009"
+    },
+    {
+      "text": "Reinforcement learning trains agents through trial and error. Applications include game playing and robotics control.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_010_chunk_010"
+    },
+    {
+      "text": "Ethics in AI addresses bias, privacy, and societal impact. Responsible AI development considers these factors.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_010_chunk_011"
+    },
+    {
+      "text": "Popular frameworks include TensorFlow, PyTorch, and Keras. They simplify building and training neural networks.",
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "chunk_id": "video_010_chunk_012"
+    },
+    {
+      "text": "The future of AI includes AGI, explainable AI, and edge AI. Continuous learning is essential in this rapidly evolving field.",
+      "start_time": 390.0,
+      "end_time": 420.0,
+      "chunk_id": "video_010_chunk_013"
+    },
+    {
+      "text": "Start with simple projects and gradually tackle complex problems. The AI community is welcoming and resources are abundant.",
+      "start_time": 420.0,
+      "end_time": 450.0,
+      "chunk_id": "video_010_chunk_014"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996384"
+}

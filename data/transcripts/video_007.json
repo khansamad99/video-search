@@ -1,0 +1,92 @@
+{
+  "video_id": "video_007",
+  "title": "Database Design and SQL",
+  "duration": 420.0,
+  "chunks": [
+    {
+      "text": "Welcome to database design and SQL. Databases are crucial for storing and managing data in applications.",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "chunk_id": "video_007_chunk_000"
+    },
+    {
+      "text": "Relational databases organize data in tables with rows and columns. Each table represents an entity with attributes.",
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "chunk_id": "video_007_chunk_001"
+    },
+    {
+      "text": "Primary keys uniquely identify each row in a table. Foreign keys establish relationships between tables.",
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "chunk_id": "video_007_chunk_002"
+    },
+    {
+      "text": "Normalization reduces data redundancy and improves data integrity. It involves organizing data into multiple related tables.",
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "chunk_id": "video_007_chunk_003"
+    },
+    {
+      "text": "First normal form eliminates repeating groups. Second normal form removes partial dependencies. Third normal form removes transitive dependencies.",
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "chunk_id": "video_007_chunk_004"
+    },
+    {
+      "text": "SQL, Structured Query Language, is used to interact with relational databases. Main commands are SELECT, INSERT, UPDATE, DELETE.",
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "chunk_id": "video_007_chunk_005"
+    },
+    {
+      "text": "SELECT statements retrieve data from tables. You can filter with WHERE, sort with ORDER BY, and limit results.",
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "chunk_id": "video_007_chunk_006"
+    },
+    {
+      "text": "JOINs combine data from multiple tables. INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN serve different purposes.",
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "chunk_id": "video_007_chunk_007"
+    },
+    {
+      "text": "Aggregate functions like COUNT, SUM, AVG, MAX, and MIN perform calculations on sets of rows. GROUP BY groups results.",
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "chunk_id": "video_007_chunk_008"
+    },
+    {
+      "text": "Indexes improve query performance by creating data structures for faster lookups. They trade storage space for speed.",
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "chunk_id": "video_007_chunk_009"
+    },
+    {
+      "text": "Transactions ensure data consistency with ACID properties: Atomicity, Consistency, Isolation, and Durability.",
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "chunk_id": "video_007_chunk_010"
+    },
+    {
+      "text": "Stored procedures and triggers add business logic to the database layer. Views provide simplified data access.",
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "chunk_id": "video_007_chunk_011"
+    },
+    {
+      "text": "NoSQL databases offer alternatives for specific use cases. Document, key-value, graph, and column-family stores have different strengths.",
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "chunk_id": "video_007_chunk_012"
+    },
+    {
+      "text": "Good database design is critical for application performance and maintainability. Practice with real-world scenarios to improve skills.",
+      "start_time": 390.0,
+      "end_time": 420.0,
+      "chunk_id": "video_007_chunk_013"
+    }
+  ],
+  "created_at": "2025-07-11 16:30:38.996338"
+}
