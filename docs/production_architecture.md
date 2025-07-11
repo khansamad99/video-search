@@ -111,30 +111,6 @@ CREATE TABLE embeddings (
 );
 ```
 
-#### MongoDB Schema
-```javascript
-{
-  "_id": "video_123",
-  "title": "Machine Learning Tutorial",
-  "url": "s3://videos/ml_tutorial.mp4",
-  "duration": 3600,
-  "transcripts": [
-    {
-      "chunk_id": "chunk_001",
-      "text": "Welcome to machine learning...",
-      "start_time": 0,
-      "end_time": 30,
-      "embedding": [0.23, -0.45, ...]  // Optional
-    }
-  ],
-  "metadata": {
-    "uploaded_at": "2024-01-15T10:00:00Z",
-    "processed_at": "2024-01-15T10:30:00Z",
-    "language": "en",
-    "speaker_count": 1
-  }
-}
-```
 
 ### 4. Production Vector Storage Options
 
@@ -173,43 +149,6 @@ index.upsert(vectors=[
         "text": "chunk text"
     })
 ])
-```
-
-**Weaviate:**
-```python
-import weaviate
-
-client = weaviate.Client("http://localhost:8080")
-
-client.data_object.create(
-    data_object={
-        "text": "chunk text",
-        "video_id": "video_001",
-        "timestamp": 30
-    },
-    class_name="VideoChunk",
-    vector=embedding.tolist()
-)
-```
-
-**Qdrant:**
-```python
-from qdrant_client import QdrantClient
-
-client = QdrantClient("localhost", port=6333)
-client.upsert(
-    collection_name="video_chunks",
-    points=[
-        {
-            "id": "chunk_123",
-            "vector": embedding.tolist(),
-            "payload": {
-                "video_id": "video_001",
-                "timestamp": 30
-            }
-        }
-    ]
-)
 ```
 
 ### 5. Complete Production Pipeline
@@ -291,49 +230,3 @@ async def get_processing_status(video_id: str):
     status = await database.get_video_status(video_id)
     return {"video_id": video_id, "status": status}
 ```
-
-## Cost Considerations
-
-### Transcription Costs
-- **Whisper (self-hosted)**: Free but needs GPU
-- **AWS Transcribe**: $0.024/minute
-- **Google Speech**: $0.016/minute
-- **Azure Speech**: $0.02/minute
-
-### Storage Costs
-- **PostgreSQL**: ~$100/month for 100GB
-- **S3 Videos**: $0.023/GB/month
-- **Vector DB**: 
-  - Pinecone: $0.025/million vectors/month
-  - Weaviate: Self-hosted or cloud
-  - Qdrant: Self-hosted or cloud
-
-### Example for 1000 Videos (1 hour each)
-- Transcription: 1000 hours × $0.024 × 60 = $1,440 (one-time)
-- Video Storage: 1000 × 5GB = 5TB × $0.023 = $115/month
-- Vector Storage: ~100K chunks × $0.025/M = $2.5/month
-- Database: ~$100/month
-
-## Scaling Considerations
-
-### For 10K+ Videos
-1. **Distributed Processing**: Use Celery/RabbitMQ for async processing
-2. **CDN**: Serve videos through CloudFront/Cloudflare
-3. **Caching**: Redis for frequent queries
-4. **Sharding**: Split vector index across multiple servers
-5. **Read Replicas**: For database queries
-
-### Performance Optimizations
-1. **Pre-compute embeddings** during quiet hours
-2. **Use GPU** for batch embedding generation
-3. **Implement pagination** for large result sets
-4. **Cache popular searches** in Redis
-5. **Use streaming transcription** for real-time processing
-
-## Migration Path from PoC
-
-1. **Phase 1**: Add database storage while keeping FAISS
-2. **Phase 2**: Implement video upload and transcription
-3. **Phase 3**: Add background processing with queues
-4. **Phase 4**: Migrate to distributed vector store
-5. **Phase 5**: Add monitoring and analytics
