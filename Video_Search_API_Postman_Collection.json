@@ -1,0 +1,258 @@
+{
+  "info": {
+    "name": "Video Semantic Search API",
+    "description": "Collection for testing Video Semantic Search API with transcription support",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Basic Endpoints",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["health"]
+            }
+          }
+        },
+        {
+          "name": "Root Endpoint",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/",
+              "host": ["{{baseUrl}}"],
+              "path": [""]
+            }
+          }
+        },
+        {
+          "name": "Get Statistics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stats",
+              "host": ["{{baseUrl}}"],
+              "path": ["stats"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Video Upload & Transcription",
+      "item": [
+        {
+          "name": "Upload Video for Transcription",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "Select a video file (mp4, avi, mov, mkv, webm, flv, wmv, m4v)"
+                },
+                {
+                  "key": "title",
+                  "value": "My Test Video",
+                  "type": "text",
+                  "description": "Optional: Custom title for the video"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/videos/upload",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "videos", "upload"]
+            },
+            "description": "Upload a video file for automatic transcription and indexing. Supported formats: mp4, avi, mov, mkv, webm, flv, wmv, m4v. Maximum file size: 500MB."
+          }
+        },
+        {
+          "name": "Check Video Processing Status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/videos/{{video_id}}/status",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "videos", "{{video_id}}", "status"]
+            },
+            "description": "Check the processing status of an uploaded video. Replace {{video_id}} with the actual video ID returned from the upload endpoint."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Video Data Viewing",
+      "item": [
+        {
+          "name": "List All Videos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/videos",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "videos"]
+            },
+            "description": "Get a list of all indexed videos with basic information"
+          }
+        },
+        {
+          "name": "Get Video Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/videos/{{video_id}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "videos", "{{video_id}}"]
+            },
+            "description": "Get detailed information about a specific video including all transcript chunks"
+          }
+        },
+        {
+          "name": "Get Video Transcript",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/videos/{{video_id}}/transcript",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "videos", "{{video_id}}", "transcript"]
+            },
+            "description": "Get the full transcript of a video as plain text"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Search Operations",
+      "item": [
+        {
+          "name": "Search Videos",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"machine learning basics\",\n  \"max_results\": 5\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/search",
+              "host": ["{{baseUrl}}"],
+              "path": ["search"]
+            },
+            "description": "Search for relevant video timestamps based on semantic similarity"
+          }
+        },
+        {
+          "name": "Search with Different Query",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"python programming tutorial\",\n  \"max_results\": 3\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/search",
+              "host": ["{{baseUrl}}"],
+              "path": ["search"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Index Management",
+      "item": [
+        {
+          "name": "Index Video Transcripts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"video_id\": \"manual_video_001\",\n    \"title\": \"Manually Added Video\",\n    \"chunks\": [\n      {\n        \"chunk_id\": \"chunk_0\",\n        \"text\": \"This is a test transcript for manual indexing.\",\n        \"start_time\": 0.0,\n        \"end_time\": 30.0\n      },\n      {\n        \"chunk_id\": \"chunk_1\",\n        \"text\": \"This is the second chunk of the test transcript.\",\n        \"start_time\": 30.0,\n        \"end_time\": 60.0\n      }\n    ]\n  }\n]"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/index",
+              "host": ["{{baseUrl}}"],
+              "path": ["index"]
+            },
+            "description": "Manually index video transcripts (alternative to automatic transcription)"
+          }
+        },
+        {
+          "name": "Clear Index",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/index",
+              "host": ["{{baseUrl}}"],
+              "path": ["index"]
+            },
+            "description": "Clear all indexed data"
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000",
+      "type": "string"
+    },
+    {
+      "key": "video_id",
+      "value": "video_1234567890_sample.mp4",
+      "type": "string",
+      "description": "Replace with actual video ID from upload response"
+    }
+  ]
+}

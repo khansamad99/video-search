@@ -5,3 +5,6 @@ sentence-transformers==2.7.0
 faiss-cpu==1.8.0
 numpy==1.26.4
 pydantic==2.7.4
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+python-multipart==0.0.9
